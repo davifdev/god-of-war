@@ -112,5 +112,22 @@
     .left {
         width: 100%;
         max-width: 629px;
+        h2 {
+            margin: 28px 0 24px 0;
+            max-width: 502px;
+        }
+        p {
+            margin-bottom: 56px;
+        }
+        .corp {
+            display: flex;
+            align-items: center;
+            p {
+                font-size: 16px;
+                max-width: 324px;
+                margin: 0 0 0 46px;
+            }
+        }
     }
+   
 }
