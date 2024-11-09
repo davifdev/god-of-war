@@ -1,0 +1,116 @@
+.s-hero {
+    padding: 10.25rem 0  103px 0;
+    background: url(../img/bg-hero.png) no-repeat center center / cover;
+    height: 800px;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    .left {
+        width: 100%;
+        max-width: 48.875rem;
+        h1 {
+            margin: 1.5rem 0 1.125rem 0;
+        }
+        p {
+            font-weight: 500;
+            font-size: 1.375rem;
+            color: #fff;
+            margin-bottom: 2.5rem;
+        }
+        .value {
+            display: flex;
+            strong {
+                background-color: #fff;
+                padding: 1.125rem 2.25rem;
+                font-weight: 700;
+                font-size: 1.25rem;
+                color: #000;
+            }
+            a {
+                display: block;
+                padding: 1.125rem 2.25rem;
+                background-color: #3265ea;
+                font-weight: 700;
+                font-size: 1.25rem;
+                color: #fff;
+            }
+        }
+       
+    }
+    .right {
+        width: 100%;
+        max-width: 443px;
+        position: relative;
+        top: 47px;
+
+        button {
+            position: relative;
+            width: 100%;
+            height: 247px;
+            border: 2px solid #3265ea;
+            overflow: hidden;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, .25);
+            margin-bottom: 51px;
+            .thumbnail {
+                width: 100%;
+                height: 100%;
+            }
+    
+            .play {
+                position: absolute;
+                bottom: 25px;
+                left: 32px;
+            }
+        }
+
+        .year-old {
+            display: flex;
+            align-items: center;
+            p {
+                color: #fff;
+                font-size: 16px;
+                max-width: 274px;
+                margin-left: 15px;
+            }
+        }
+   
+    }
+}
+
+.s-info-geral {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    background-color: #090A0A;
+    ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        li {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            span {
+                display: block;
+                text-align: center;
+                font-size: 16px;
+                color: #bdc2cb;
+                margin-top: 12px;
+            }
+        }
+    }
+}
+
+.s-story {
+    width: 100%;
+    height: 899px;
+    padding: 160px 0 80px 0;
+    background: url(../img/bg-story.png) no-repeat top center / cover;
+    .left {
+        width: 100%;
+        max-width: 629px;
+    }
+}
