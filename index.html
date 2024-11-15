@@ -10,15 +10,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
-    <link rel="stylesheet" href="/css/main.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <title>God Of War</title>
   </head>
   <body>
     <header>
       <div class="container">
-        <img src="img/sony.svg" alt="sony" />
-        <img src="img/logo.png" alt="Logo God of War" />
-
+          <img src="img/sony.svg" alt="Logo da sony" class="img-sony" />
+          <img src="img/logo.png" alt="Logo do God of War" class="logo" />
+ 
         <div class="plataform">
           <span>Disponivel para</span>
           <ul>
@@ -42,7 +46,7 @@
             acreditam.
           </p>
           <div class="value">
-            <strong>R 349,00</strong>
+            <strong>R$ 349,00</strong>
             <a href="#" target="_blank">Comprar na pré-venda</a>
           </div>
         </div>
@@ -119,7 +123,133 @@
             </p>
           </div>
         </div>
+        <img
+          src="./img/kratos-atreus.png"
+          class="kratos-atreus"
+          alt="Imagem do Kratos e Atreus"
+        />
       </div>
     </section>
+
+    <section class="s-characteres">
+      <div class="container">
+        <div class="description">
+          <div class="left">
+            <h3 class="subtitle">
+              <img src="./img/bullet.svg" alt="Bullets" />
+              <span>Conheça os personagens</span>
+            </h3>
+            <h2>
+              Toda grande aventura é uma história esperando para ser contada
+            </h2>
+            <p>
+              Reviva o começo da jornada nórdica épica de Kratos e Atreus em
+              Mitos de Midgard. Um alerta para quem não está familiarizado com
+              God of War: spoilers á frente
+            </p>
+          </div>
+
+          <div class="right">
+            <img src="./img/machado.png" alt="" />
+            <div class="text">
+              <img src="./img/logo.png" alt="" />
+              <span>Lançamento dia 09/11/2022</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide-characters">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card-character">
+                <div class="image">
+                  <img src="./img/kratos.jpg" alt="" />
+                  <button>
+                    <a
+                      target="_blank"
+                      href="https://pt.wikipedia.org/wiki/Kratos_(God_of_War)"
+                      >Saiba mais</a
+                    >
+                  </button>
+                </div>
+                <div class="info">
+                  <h3>Kratos</h3>
+                  <span>Deus da Guerra</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="card-character">
+                <div class="image">
+                  <img src="./img/atreus.jpg" alt="" />
+                  <button>Saiba mais</button>
+                </div>
+                <div class="info">
+                  <h3>Atreus</h3>
+                  <span>Filho de Kratos</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="card-character">
+                <div class="image">
+                  <img src="./img/mimir.jpg" alt="" />
+                  <button>Saiba mais</button>
+                </div>
+                <div class="info">
+                  <h3>Mimir</h3>
+                  <span>Aliado de Kratos</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="card-character">
+                <div class="image">
+                  <img src="./img/freya.jpg" alt="" />
+                  <button>Saiba mais</button>
+                </div>
+                <div class="info">
+                  <h3>Freya</h3>
+                  <span>Mãe de Baldur</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="card-character">
+                <div class="image">
+                  <img src="./img/thor.jpg" alt="" />
+                  <button>Saiba mais</button>
+                </div>
+                <div class="info">
+                  <h3>Thor</h3>
+                  <span>Filho de odin</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="card-character">
+                <div class="image">
+                  <img src="./img/thyr.jpg" alt="" />
+                  <button>Saiba mais</button>
+                </div>
+                <div class="info">
+                  <h3>Tyr</h3>
+                  <span>Deus da Guerra da mitologia Nórdica</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
