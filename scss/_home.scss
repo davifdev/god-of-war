@@ -246,7 +246,7 @@
     }
     @media (max-width: 1200px) {
         background: none;
-        padding: 6rem 0;
+        padding: 60px 0;
         .container {
             flex-direction: column-reverse;
             align-items: center;
@@ -342,6 +342,34 @@
                 text-align: center;
                 margin-bottom: 4rem;
             }
+        }
+    }
+    @media (max-width: 560px) {
+        padding: 40px 0;
+        .description {
+            .left {
+                h2 {
+                    font-size: 30px;
+                }
+                p {
+                    font-size: 16px;
+                }
+            }
+            .right {
+                flex-direction: column;
+                align-items: center;
+                .text {
+                    img {
+                        margin: 0 auto;
+                    }
+                    span {
+                        max-width: 100%;
+                    }
+                }
+            }
+        }
+        .slide-characters {
+            margin-top: 40px;
         }
     }
 }
