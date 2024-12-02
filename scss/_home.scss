@@ -1,6 +1,7 @@
 .s-hero {
     padding: 10.25rem 0  103px 0;
     background: url(../img/bg-hero.png) no-repeat center center / cover;
+    background-attachment: fixed;
     height: 800px;
     .container {
         display: flex;

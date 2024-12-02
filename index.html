@@ -15,15 +15,26 @@
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
     <link rel="stylesheet" href="./css/main.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>God Of War</title>
   </head>
   <body>
     <header>
       <div class="container">
-        <img src="img/sony.svg" alt="Logo da sony" class="img-sony" />
-        <img src="img/logo.png" alt="Logo do God of War" class="logo" />
+        <img
+          src="img/sony.svg"
+          alt="Logo da sony"
+          class="img-sony"
+          data-aos="fade-right"
+        />
+        <img
+          src="img/logo.png"
+          alt="Logo do God of War"
+          class="logo"
+          data-aos="zoom-in"
+        />
 
-        <div class="plataform">
+        <div class="plataform" data-aos="fade-left">
           <span>Disponivel para</span>
           <ul>
             <li>PS4</li>
@@ -35,7 +46,7 @@
 
     <section class="s-hero">
       <div class="container">
-        <div class="left">
+        <div class="left" data-aos="fade-right">
           <h3 class="subtitle">
             <img src="./img/bullet.svg" alt="Bullets" />
             <span>Lançameno dia 09/11/2022</span>
@@ -50,7 +61,7 @@
             <a href="#" target="_blank">Comprar na pré-venda</a>
           </div>
         </div>
-        <div class="right">
+        <div class="right" data-aos="fade-up">
           <span>Assista aos trailer</span>
           <button>
             <img
@@ -68,7 +79,7 @@
       </div>
     </section>
 
-    <section class="s-info-geral">
+    <section class="s-info-geral" data-aos="fade-up">
       <div class="container">
         <ul>
           <li>
@@ -101,7 +112,7 @@
 
     <section class="s-story">
       <div class="container">
-        <div class="left">
+        <div class="left" data-aos="fade-right">
           <h3 class="subtitle">
             <img src="img/bullet.svg" alt="Bullet" />
             <span>Sony Interactive Entertainment</span>
@@ -128,6 +139,7 @@
           </div>
         </div>
         <img
+          data-aos="fade-left"
           src="./img/kratos-atreus.png"
           class="kratos-atreus"
           alt="Imagem do Kratos e Atreus"
@@ -138,7 +150,7 @@
     <section class="s-characteres">
       <div class="container">
         <div class="description">
-          <div class="left">
+          <div class="left" data-aos="fade-right">
             <h3 class="subtitle">
               <img src="./img/bullet.svg" alt="Bullets" />
               <span>Conheça os personagens</span>
@@ -153,7 +165,7 @@
             </p>
           </div>
 
-          <div class="right">
+          <div class="right" data-aos="fade-left">
             <img src="./img/machado.png" alt="" />
             <div class="text">
               <img src="./img/logo.png" alt="" />
@@ -162,7 +174,7 @@
           </div>
         </div>
 
-        <div class="slide-characters">
+        <div class="slide-characters" data-aos="fade-up">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="card-character">
@@ -254,6 +266,7 @@
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/main.js"></script>
   </body>
 </html>

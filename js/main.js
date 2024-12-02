@@ -1,4 +1,4 @@
-var swiper = new Swiper(".slide-characters", {
+let swiper = new Swiper(".slide-characters", {
   slidesPerView: 3.5,
   spaceBetween: 19,
   fremode: true,
@@ -19,4 +19,9 @@ var swiper = new Swiper(".slide-characters", {
       slidesPerView: 3.5,
     }
   }
+});
+
+AOS.init({
+  duration: 1000,
+  once: true,
 });
